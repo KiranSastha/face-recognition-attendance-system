@@ -16,18 +16,28 @@ Automatically loads users from folders, recognizes faces using webcam or IP came
 
 ## 📁 Project Structure
 face_recog_project/
+
 ├── train_and_recognize.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── LICENSE
+
 ├── .gitignore
+
 ├── logs/
+
 │ ├── recognition_log.txt
+
 │ └── recognition_log.csv
+
 │── kiran/
+
 │└── images of the person
-└── assets/
-└── demo.gif
+
+└── 
 
 
 ---
