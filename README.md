@@ -1,32 +1,72 @@
-Face Recognition Attendance System
+# Face Recognition Attendance System
 
-A real-time face recognition system built using Python, OpenCV, and the face_recognition library.
-This project identifies known individuals through a webcam/CCTV feed and logs attendance automatically in both TXT and CSV formats.
+A Python-based real-time face recognition system using OpenCV and face_recognition.  
+Automatically loads users from folders, recognizes faces using webcam or IP camera, and logs results.
 
-✅ Features
+---
 
-🔍 Real-time face detection and recognition
+## 🚀 Features
+- Real-time face recognition
+- Auto-detect user folders (no code changes)
+- Logs to TXT + CSV
+- Confidence % display
+- Frame-skip performance optimization
 
-📁 Auto-load all users from folders (no manual code edits needed)
+---
 
-🎯 Confidence percentage displayed for each recognized face
+## 📁 Project Structure
+face_recog_project/
+├── train_and_recognize.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── logs/
+│ ├── recognition_log.txt
+│ └── recognition_log.csv
+├── dataset/
+│ ├── kiran/
+│ └── ...
+└── assets/
+└── demo.gif
 
-⚡ Optimized performance for smoother video
 
-📝 Attendance/recognition logs:
+---
 
-logs/recognition_log.txt
+## ⚙️ Installation
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt
 
-logs/recognition_log.csv
 
-🧠 Scalable — simply add new person folders with images
 
-📸 Works with:
+---
 
-Laptop webcam
+## ▶️ Run the Project
+python train_and_recognize.py
 
-DSLR (via USB mode)
 
-IP CCTV cameras (RTSP feed)
 
-Mobile cameras (DroidCam / Iriun)
+---
+
+## 📸 Adding New Users
+Just add a new folder inside `/dataset/`  
+Example:
+dataset/john/
+john1.jpg
+john2.jpg
+
+
+No code changes required.
+
+---
+
+## 🧾 License
+MIT License (see LICENSE file)
+
+---
+
+## 👤 Author
+**Kiran S K**
