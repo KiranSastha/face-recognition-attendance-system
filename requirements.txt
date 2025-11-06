@@ -1,3 +1,4 @@
-face_recognition
 opencv-python
+face_recognition
 numpy
+dlib
