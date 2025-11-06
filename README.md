@@ -79,6 +79,16 @@ No code changes required.
 
 ---
 
+## 🎯 Future Goals
+- Add GUI registration system
+- Build online attendance dashboard
+- Multi-camera support for CCTV
+- Deploy on Raspberry Pi for portable system
+- Add encryption for face encodings
+- Create installer (.exe)
+
+---
+
 ## 🧾 License
 MIT License (see LICENSE file)
 
