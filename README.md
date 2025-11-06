@@ -24,9 +24,8 @@ face_recog_project/
 ├── logs/
 │ ├── recognition_log.txt
 │ └── recognition_log.csv
-├── dataset/
-│ ├── kiran/
-│ └── ...
+│── kiran/
+│└── images of the person
 └── assets/
 └── demo.gif
 
@@ -34,10 +33,14 @@ face_recog_project/
 ---
 
 ## ⚙️ Installation
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/KiranSastha/face-recognition-attendance-system.git
+
 cd YOUR_REPO
+
 python -m venv venv
+
 venv/Scripts/activate
+
 pip install -r requirements.txt
 
 
@@ -45,6 +48,7 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Run the Project
+
 python train_and_recognize.py
 
 
@@ -52,10 +56,12 @@ python train_and_recognize.py
 ---
 
 ## 📸 Adding New Users
-Just add a new folder inside `/dataset/`  
+Just add a new photos and create folders  
 Example:
-dataset/john/
+john/
+
 john1.jpg
+
 john2.jpg
 
 
